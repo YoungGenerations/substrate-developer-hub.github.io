@@ -70,9 +70,9 @@ collected in the **PALETTE** library.
 
 ![Runtime Composition](assets/runtime.png)
 
-For example, one of the included PALETTE module is
-[Balances](https://substrate.dev/rustdocs/master/srml_balances/index.html)
-module that controls the underlying currency of your blockchain by managing the
+For example, the PALETTE module
+[Balances](https://substrate.dev/rustdocs/master/srml_balances/index.html) 
+controls the underlying currency of your blockchain by managing the
 _balance_ of all the accounts in your system. 
 
 If you want to add smart contract functionality to your blockchain, you simply
