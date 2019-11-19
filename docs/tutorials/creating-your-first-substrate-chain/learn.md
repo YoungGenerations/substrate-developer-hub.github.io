@@ -66,11 +66,11 @@ We call this part of Substrate the **runtime**.
 The Substrate runtime is composed of runtime modules. You can think of these
 runtime modules as individual pieces of logic which define what your blockchain
 can do! Substrate provides you with a number of pre-built runtime modules
-collected in the **Substrate Runtime Module Library** (SRML).
+collected in the **PALETTE** library.
 
 ![Runtime Composition](assets/runtime.png)
 
-For example, the SRML includes a
+For example, one of the included PALETTE module is
 [Balances](https://substrate.dev/rustdocs/master/srml_balances/index.html)
 module that controls the underlying currency of your blockchain by managing the
 _balance_ of all the accounts in your system. 
